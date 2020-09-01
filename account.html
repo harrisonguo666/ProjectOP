@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Account</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<style>
+	.greeting {
+		/* position to left, below Project OP logo, and aligned with Account value & Today's Gain/Loss */
+	}
+</style>
+<body>
+<div class="topnav">
+	<a class="logo" href="index.html" style="float: left">Project OP</a>	
+	<a href="about.html">About</a>
+	<a class="active" href="account.html">Account</a>
+	<a href="watchlists.html">Watchlists</a>
+	<a href="trade.html">Trade</a>
+</div>
+
+
+	<h1><b>Project OP</b></h1>
+	<div id="greeting">
+		<p>Welcome!</p><!-- later add username to greeting -->
+		<p>Buying power: </p> <!-- later pull user's buying power from db -->
+	</div>
+	
+	<div id="summary">
+		Account value: [xxxx] <!-- need spacing between today's gain/loss -->
+		Today's Gain/Loss: [xx.xx]
+	</div>
+	
+	<table id="positions">
+		<tr class="column-headers"> <!-- column headers -->
+			<th>Symbol</th>
+			<th>Last Price</th>
+			<th>Today's Gain/Loss</th>
+			<th>Total Gain/Loss</th>
+			<th>Current Value</th>
+			<th>Shares</th>
+			<th>Average Price</th>
+			<th>Cost Basis</th>
+		</tr>
+	</table>
+
+
+</body>
+</html>
