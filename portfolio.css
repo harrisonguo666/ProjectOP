@@ -1,0 +1,15 @@
+* { /* "*" selector targets every element in the page */
+	font-family: arial;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+.positions { 
+	border-style: ridge;
+}
+
+.column-headers {
+	background-color: thistle;
+	
+}

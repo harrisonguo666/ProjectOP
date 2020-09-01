@@ -1,0 +1,12 @@
+* {
+	font-family: arial;
+}
+
+table, th, td {
+	border: 1px solid black;
+	padding: 2px;
+}
+th, td {
+	margin-right: 2px;
+	margin-left: 2px;
+}
