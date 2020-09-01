@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	font-family: 'Arial', serif;
+}
+
+.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	background-color: #333;
+	font-size: 20px;
+}	
+
+
+.topnav a {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover:not(.active) {
+	background-color: #800080;
+	color: white;
+}
+
+/*
+.logo {
+	float: left;
+} */
+
+.active {
+	background-color: #800080;
+}
+
+.logo {
+	background-color: #800080;
+}
+
